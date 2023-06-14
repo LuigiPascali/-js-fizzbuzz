@@ -14,7 +14,7 @@
     
 /* for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
+        console.log("Fizz_Buzz");
      } else if (i % 3 === 0) {
          console.log("Fizz");
     } else if (i % 5 === 0) {
@@ -37,8 +37,8 @@ for (let i = 1; i <= 100; i++) {
 
   // Aggiungo le classi al nuovo elemento in base al valore del numero
   if (i % 3 === 0 && i % 5 === 0) {
-    newElement.classList.add('fizzbuzz');
-    newSpan.textContent = 'fizzbuzz';
+    newElement.classList.add('fizz_buzz');
+    newSpan.textContent = 'fizz_buzz';
   } else if (i % 3 === 0) {
     newElement.classList.add('fizz');
     newSpan.textContent = 'fizz';

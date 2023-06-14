@@ -8,7 +8,7 @@
   
 .buzz {background-image: linear-gradient(to bottom, var(--buzz_color), var(--number_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
   
-.fizzbuzz {background-image: linear-gradient(to bottom, var(--fizz_color), var(--fizz_buzz_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
+.fizz_buzz {background-image: linear-gradient(to bottom, var(--fizz_color), var(--fizz_buzz_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
   
 .right_angle {flex-basis: calc(20% - .625rem);height: 7.5rem;margin: .3125rem;display: flex;justify-content: center;align-items: center;}  
 
