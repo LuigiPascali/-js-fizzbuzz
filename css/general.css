@@ -9,8 +9,16 @@
 :root {
     /* Color Palette */
     
-    --light_color:#FFFFFF ;
-    --dark_color: #0A0A0A ;
-
+    --light_color:#FFFFFF;
+    --dark_color: #0A0A0A;
+    --number_color: #c4aa23;
+    --fizz_color: #2c7c94;
+    --buzz_color: #a65852;
+    --fizz_buzz_color: #a6d0c8;
+    --h1_color: #618e9d;
+    --h5_color: #acc4cc;
 }
 
+#h1 {color: var(--h1_color);}
+
+#h5 {color: var(--h5_color);}

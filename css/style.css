@@ -1,3 +1,22 @@
 /* 
     MAIN
 */
+
+.number {background-image: linear-gradient(to bottom, var(--number_color), var(--fizz_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
+  
+.fizz {background-image: linear-gradient(to bottom, var(--fizz_buzz_color), var(--buzz_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
+  
+.buzz {background-image: linear-gradient(to bottom, var(--buzz_color), var(--number_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
+  
+.fizzbuzz {background-image: linear-gradient(to bottom, var(--fizz_color), var(--fizz_buzz_color));background-size: 100% 200%;animation: animateBackground 5s ease-in-out infinite;}
+  
+.right_angle {flex-basis: calc(20% - .625rem);height: 7.5rem;margin: .3125rem;display: flex;justify-content: center;align-items: center;}  
+
+@keyframes animateBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 200%;
+    }
+}
